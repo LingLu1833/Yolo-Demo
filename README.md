@@ -199,7 +199,7 @@ python train.py
 ```bash
 python detect.py
 ```
-
+![测试截图](test/test.png?raw=true)
 - 弹出检测窗口，实时显示截取画面、检测框（类别 + 置信度）与 FPS；
 - 若 `action_enabled` 为 `true`，画面上会画出各触发圆圈，当检测框中心（置信度 ≥ `confidence_threshold`）**从圈外进入圈内**的瞬间，自动按下对应按键；目标停留在圈内不会重复触发，离开后再进入会再次触发；
 - 按 **ESC** 退出程序。
