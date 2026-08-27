@@ -1,0 +1,21 @@
+{
+  "window_title": "Swords & Souls Neverseen",
+  "window_class": "UnityWndClass",
+  "crop_width": 640,
+  "crop_height": 640,
+  "crop_x_ratio": 0.5,
+  "crop_y_ratio": 1.0,
+  "confidence_threshold": 0.5,
+  "box_thickness": 2,
+  "font_scale": 0.6,
+  "show_labels": true,
+  "show_conf": true,
+  "show_fps": true,
+  "display_scale": 1.0,
+  "action_enabled": true,
+  "action_circles": [
+    { "center_x": 205, "center_y": 525, "radius": 20, "key": "a" },
+    { "center_x": 320, "center_y": 411, "radius": 20, "key": "w" },
+    { "center_x": 435, "center_y": 525, "radius": 20, "key": "d" }
+  ]
+}

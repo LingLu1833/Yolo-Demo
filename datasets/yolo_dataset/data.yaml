@@ -1,0 +1,5 @@
+path: datasets\yolo_dataset
+train: train/images
+val: val/images
+nc: 2
+names: ['Apple', 'ThrowBronze']
